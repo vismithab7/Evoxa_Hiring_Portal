@@ -55,8 +55,12 @@ public class AuthServiceImpl implements AuthService {
 	        data.setOtp(code);
 	        data.setOtpExpiryTime(LocalDateTime.now().plusMinutes(5));
 	        data.setStatus(false);
-	        dao.save(data);
+//	        Candidate savedData = dao.save(data);
 
+//	        System.out.println("========== SAVED ID = " + savedData.getId());
+//	        System.out.println("========== SAVED EMAIL = " + savedData.getEmail());
+	        dao.save(data);
+//
 	        return new ResponseDto("Otp Sent Success, Verify within 5 minutes", dto);
 	}
 

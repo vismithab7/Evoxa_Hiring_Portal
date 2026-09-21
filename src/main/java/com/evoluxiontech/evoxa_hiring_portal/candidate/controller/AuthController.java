@@ -15,7 +15,6 @@ import com.evoluxiontech.evoxa_hiring_portal.candidate.dto.CandidateDto;
 import com.evoluxiontech.evoxa_hiring_portal.candidate.dto.LoginDto;
 import com.evoluxiontech.evoxa_hiring_portal.candidate.dto.OtpDto;
 import com.evoluxiontech.evoxa_hiring_portal.candidate.dto.PasswordDto;
-import com.evoluxiontech.evoxa_hiring_portal.candidate.entity.Candidate;
 import com.evoluxiontech.evoxa_hiring_portal.candidate.service.AuthService;
 import com.evoluxiontech.evoxa_hiring_portal.dto.ResponseDto;
 
